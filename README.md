@@ -1,5 +1,12 @@
 # A Docker image with the [Coturn TURN server] (https://github.com/coturn/coturn)
 
+## 원본 블로그 링크
+클라우드 배포를 위한 TURN 서버 조정  
+: Azure 의 자원을 활용하여 배포 자동화를 함
+> 우리는 부하 분산된 TURN 서버 세트에 대한 호스팅 환경으로 Azure를 선택했으며 Ubuntu VM , Azure Database for PostreSQL , Azure KeyVault 및  Azure Virtual Network 와 같은 다양한 서비스를 사용했습니다 . Azure에 대한 배포 프로세스를 자동화하기 위해 우리는  10분 이내에 프로덕션 준비가 완료된 부하 분산된 TURN 서버를 설정할 수 있는 스크립트와 ARM 템플릿을 개발했습니다.
+
+- https://devblogs.microsoft.com/ise/2018/01/29/orchestrating-turn-servers-cloud-deployment/
+
 ## Usage
 
 1. Put certificate to /etc/ssl/certs/turn
